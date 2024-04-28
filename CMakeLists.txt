@@ -14,9 +14,10 @@ endif()
 message(STATUS "CMAKE_BUILD_TYPE: ${CMAKE_BUILD_TYPE}")
 
 add_library(cxx_project INTERFACE)
-target_compile_options(cxx_project INTERFACE -Wall )#-Wpedantic -Wextra)
+#target_compile_options(cxx_project INTERFACE -Wall )#-Wpedantic -Wextra)
 target_include_directories(cxx_project INTERFACE ${PROJECT_SOURCE_DIR})
 
 add_subdirectory(source)
 add_subdirectory(tools)
+add_subdirectory(modules)
 
