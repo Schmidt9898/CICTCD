@@ -1,5 +1,5 @@
 
-cmake_minimum_required(VERSION 3.16..3.24)
+cmake_minimum_required(VERSION 3.16)
 # set(CMAKE_CXX_COMPILER g++) does not work
 
 project(LCompileTest VERSION 0.0.2
