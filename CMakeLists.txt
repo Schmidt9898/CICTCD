@@ -17,7 +17,12 @@ add_library(cxx_project INTERFACE)
 #target_compile_options(cxx_project INTERFACE -Wall )#-Wpedantic -Wextra)
 target_include_directories(cxx_project INTERFACE ${PROJECT_SOURCE_DIR})
 
+
+include(cmake/UpdateSubmodules.cmake)
+include(CTest)
+
 add_subdirectory(source)
+add_subdirectory(tests)
 add_subdirectory(tools)
 add_subdirectory(modules)
 

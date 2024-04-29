@@ -19,3 +19,4 @@ target_link_libraries(imgui PUBLIC ${PROJECT_SOURCE_DIR}/modules/imgui/examples/
 
 target_link_libraries(imgui PUBLIC cxx_project)
 
+add_subdirectory(googletest)
