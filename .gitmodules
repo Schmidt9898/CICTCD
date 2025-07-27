@@ -1,6 +1,0 @@
-[submodule "modules/imgui"]
-	path = modules/imgui
-	url = https://github.com/ocornut/imgui.git
-[submodule "modules/googletest"]
-	path = modules/googletest
-	url = https://github.com/google/googletest.git
